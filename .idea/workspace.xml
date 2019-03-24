@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a530d08-df9f-451f-a14a-25774dda5472" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/2019学习计划.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/30 分钟精通 React 新特性 React Hooks.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/React 高效渲染策略.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/flutter 环境安装Mac.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Ant Design Pro 总结篇.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/前端-简历.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/前端-简历.md" afterDir="false" />
-    </list>
+    <list default="true" id="6a530d08-df9f-451f-a14a-25774dda5472" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -29,7 +15,7 @@
     <session id="1118026986">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.9" value="1" />
@@ -123,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/_posts/React 高效渲染策略.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="238">
+              <caret line="775" lean-forward="true" selection-start-line="775" selection-end-line="775" />
             </state>
           </provider>
         </entry>
@@ -175,8 +161,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
-    <option name="y" value="23" />
+    <option name="x" value="536" />
+    <option name="y" value="31" />
     <option name="width" value="1441" />
     <option name="height" value="969" />
   </component>
@@ -273,18 +259,18 @@
       <workItem from="1550989550513" duration="233000" />
       <workItem from="1550989806414" duration="937000" />
       <workItem from="1550990947741" duration="1018000" />
-      <workItem from="1551364245704" duration="380000" />
+      <workItem from="1551364245704" duration="648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7727000" />
+    <option name="totallyTimeSpent" value="7995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="106" y="23" width="1441" height="969" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1943662" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1943662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -296,7 +282,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23887588" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23887588" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -359,8 +345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/React 高效渲染策略.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="238">
+          <caret line="775" lean-forward="true" selection-start-line="775" selection-end-line="775" />
         </state>
       </provider>
     </entry>
