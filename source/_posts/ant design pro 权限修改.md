@@ -10,6 +10,8 @@ tags: 权限, antd Pro
 ```
 仔细看了下 ant design pro 的权限控制组件后发现，可以很好地结合使用
 
+<!-- more -->
+
 ## 1. mock 登录返回数据
 ```
 if (password === '123' && userName === 'wxc') {
