@@ -1,7 +1,9 @@
 ---
 title: Using ES6 with gulp
 date: 2018-06-07 10:54:21
-tags: gulp
+type: "tags"
+tags:
+- gulp
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 https://markgoodyear.com/2015/06/using-es6-with-gulp/

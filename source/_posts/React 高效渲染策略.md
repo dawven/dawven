@@ -1,7 +1,9 @@
 ---
 title: React 高效渲染策略
 date: 2019-02-18 12:54:21
-tags: react
+type: "tags"
+tags:
+- react
 ---
 ## 前言
 

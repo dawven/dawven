@@ -1,7 +1,9 @@
 ---
 title: leetCode-1-两数之和
 date: 2018-06-12 10:54:21
-tags: leetCode
+type: "tags"
+tags:
+- leetCode
 ---
 
 给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。
@@ -18,7 +20,7 @@ tags: leetCode
 用哈希表，存进去，然后检测存不存在，存在就输出对应key，放到数组里，得到答案，
 
 JavaScript 中其实每个 object 对象就是一个简单的哈希表，具体可到stackoverflow看这个问题：[How is a JavaScript hash map implemented?
-](https://stackoverflow.com/questions/8877666/how-is-a-javascript-hash-map-implemented)  
+](https://stackoverflow.com/questions/8877666/how-is-a-javascript-hash-map-implemented)
 
 时间复杂度和空间复杂度均为O(n);
 

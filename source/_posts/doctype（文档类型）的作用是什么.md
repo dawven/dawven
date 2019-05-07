@@ -1,7 +1,9 @@
 ---
 title: doctype（文档类型）的作用是什么
 date: 2018-07-20 10:54:21
-tags: 面试题
+type: "tags"
+tags:
+- 面试题
 ---
 
 2000 年 1 月 5 日，微软发表声明要发布 「IE5 for Mac」。

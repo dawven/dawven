@@ -1,7 +1,10 @@
 ---
 title: 2019学习计划
 date: 2018-12-25 10:54:21
-tags: 权限, antd Pro
+type: "tags"
+tags:
+- 权限
+- antd Pro
 ---
 因为后端使用 shiro 控制权限， 用户登录的时候返回的权限信息类似于
 

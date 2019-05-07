@@ -1,7 +1,9 @@
 ---
 title: 30 分钟精通 React 新特性 React Hooks
 date: 2019-02-15 13:54:21
-tags: react
+type: "tags"
+tags:
+- react
 ---
 你还在为该使用无状态组件（Function）还是有状态组件（Class）而烦恼吗？——拥有了 hooks，你再也不需要写 Class 了，你的所有组件都将是 Function。
 

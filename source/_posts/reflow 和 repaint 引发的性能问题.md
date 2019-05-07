@@ -1,7 +1,9 @@
 ---
 title: reflow 和 repaint 引发的性能问题
 date: 2018-06-11 10:54:21
-tags: 面试题
+type: "tags"
+tags:
+- 面试题
 ---
 
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 https://juejin.im/post/5a9372895188257a6b06132e
@@ -66,13 +68,13 @@ tags: 面试题
         document.body.appendChild(tmpNode);
     }
     console.log(new Date() - date);
-}); 
+});
 
 ```
 
 这里多次测量消耗时间大概在 500ms（运行环境均为 pc 端，小霸王笔记本）。看到这个结果可能就有疑问了，这里有 **70000** 次内容的修改，就有 **70000**reflow 操作，也就用了 500ms 的时间（归功于迟缓的 dom 操作），说好的 reflow 消耗性能呢。
 
-![](https://user-gold-cdn.xitu.io/2018/2/26/161d0d3ec84bf83e?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)  
+![](https://user-gold-cdn.xitu.io/2018/2/26/161d0d3ec84bf83e?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 其实在这个过程中，浏览器为了防止我们犯二把多次 reflow 操作放在循环中而引发浏览器假死，做了一个聪明的小动作。它会收集 reflow 操作到缓存队列中直到一定的规模或者过了特定的时间，再一次性地 flush 队列，反馈到 render tree 中，这样就将多次的 reflow 操作减少为少量的 reflow。但是这样的小动作带来了另外一个问题，如果我们想要在一次 reflow 过后就获取元素变动过后的值呢？这个时候浏览器为了获取真实的值就不得不立即 flush 缓存的队列。这些值或方法包括：
 
@@ -172,19 +174,19 @@ Dom 规定文档片段（document fragment）是一种 “轻量级” 的文档
 
 ```
 // 不好的写法
-for(let i = 0; i < 20; i++ ) { 
-    el.style.left = el.offsetLeft + 5 + "px"; 
-    el.style.top = el.offsetTop + 5 + "px"; 
+for(let i = 0; i < 20; i++ ) {
+    el.style.left = el.offsetLeft + 5 + "px";
+    el.style.top = el.offsetTop + 5 + "px";
 }
 // 比较好的写法
-var left = el.offsetLeft, 
-top = el.offsetTop, 
-s = el.style; 
-for (let i = 0; i < 20; i++ ) { 
+var left = el.offsetLeft,
+top = el.offsetTop,
+s = el.style;
+for (let i = 0; i < 20; i++ ) {
     left += 5;
-    top += 5; 
-    s.left = left + "px"; 
-    s.top = top + "px"; 
+    top += 5;
+    s.left = left + "px";
+    s.top = top + "px";
 }
 
 ```
@@ -258,8 +260,8 @@ Performace 截图：
 我们再用 opacity 去替代 visibility 试试看。
 
 ```
--            document.getElementById("react").style.transform = "translateY(100px)"            
-+            document.getElementById("react").style.visibility = "hidden"            
+-            document.getElementById("react").style.transform = "translateY(100px)"
++            document.getElementById("react").style.visibility = "hidden"
 
 ```
 
@@ -270,7 +272,7 @@ Performace 截图：
 ```
 +            opacity: 1;
 
--            document.getElementById("react").style.visibility = "hidden"    
+-            document.getElementById("react").style.visibility = "hidden"
 +            document.getElementById("react").style.opacity = "0"
 
 ```

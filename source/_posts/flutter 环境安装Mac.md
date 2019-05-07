@@ -1,7 +1,9 @@
 ---
 title: flutter 环境安装Mac
 date: 2019-02-23 12:54:21
-tags: flutter
+type: "tags"
+tags:
+- flutter
 ---
 ## 下载Flutter SDK包
 

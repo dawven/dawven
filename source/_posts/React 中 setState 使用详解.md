@@ -1,7 +1,9 @@
 ---
 title: React 中 setState 使用详解
 date: 2018-07-21 10:54:21
-tags: react
+type: "tags"
+tags:
+- react
 ---
 
 React 中 setState 使用的[注意事项](http://www.php.cn/code/10182.html)有哪些，下面就是实战案例，一起来看一下。
